@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap');
+
+
+
+body {
+    background-color: #111111;
+}
+.dg {
+    background-color: #171717;
+}
+.topnav {
+    max-width: 80rem;
+}
+.miAuto {
+    margin-inline: auto;
+}
+.modgmdlgdmgdnjgndoigdogdoig {
+    margin-top: -1.8rem;
+}
+.topnavFont {
+    font-family: 'PT Sans Caption', sans-serif;
+}
+.bb {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+}
+.bb::before {
+    pointer-events: none;
+    position: absolute;
+    z-index: -1;
+    content: '';
+    border-style: solid;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    left: calc(50% - 10px);
+    bottom: 0;
+    border-width: 10px 10px 0 10px;
+    border-color: #e1e1e1 transparent transparent transparent;
+}
+.bb:hover {
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+  }
+  .posp {
+    margin-top: 1px;
+  }
